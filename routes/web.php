@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('signup', function() {
     return view('prjcthm');
 });
+Route::get('prof', function(){
+    return view_('profile');
+});
